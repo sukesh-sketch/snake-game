@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
 
@@ -9,20 +10,34 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
-    <div class="scored" id="Score "> 
+    <div class="scored" id="Score ">
+        <button type="menu" style="color:white;" id="rulesBtn" onclick="openpopup()"> Rules </button>
+
         <h1 class="score"> Score : <span id="currentscore"> 0 </span> </h1>
         <h1 class="score"> Top score: <span id="topscore"> 0 </span> </h1>
-        
+
     </div>
-     
+    <div class="ruledesc" id="rulesdescription">
+        <h1>keys to plays</h1>
+        <p>
+            a = left<br>
+            d = righ<br>t
+            s = down<br>
+            w = up
+        </p>
+        <button type="button" style="color:white;" onclick=" closepopup() "> close </button>
+
+    </div>
 
     <canvas id="canvas1" height="400" width="400px"></canvas>
-    
+
     <script src="style.js"></script>
 
-    
 
-    
+
+
 </body>
+
 </html>

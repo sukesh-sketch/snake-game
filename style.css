@@ -16,7 +16,16 @@ body{
     height: 50px;
     display: flex;
     justify-content: space-around;
+    
    
+}
+
+.ruledesc{
+    color:white;
+    border: 2px solid white;
+    width: 20vw;
+    display: none ;
+
 }
 
 *{
